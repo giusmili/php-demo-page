@@ -1,0 +1,52 @@
+/* ==============================
+   SECTION 1: RESET CSS
+   ============================== */
+   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
+   html{
+      font-size: 62.5%; /* 16px mult 62.5% = 10 rem */
+      background:linear-gradient(to top,rgba(0,0,0,.7) 70%,rgba(0,0,0,.7) 70%),  
+      url(../asset/bgcover.jpg)no-repeat fixed center center / cover; 
+     
+   }
+   body{
+      font: 1.6rem "Montserrat", sans-serif;
+      margin: 0;
+      letter-spacing: 0.1rem; /* 1px */
+      line-height: 1.6;
+      height: 100vh;
+     
+      
+   } 
+   h1, h2, h3, p, figure, ul{
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      font-weight: normal;
+   }
+   *{
+      box-sizing: border-box;
+   }
+   ion-icon{
+      vertical-align: -.4rem;
+   }
+   
+   /* scrollbar c'est ici */
+   
+   *{
+      /* ff */
+      scrollbar-width: thin;
+      scrollbar-color: #fff #222;
+   }
+   /* webkit */
+   ::-webkit-scrollbar {
+      width: .9rem;
+    }
+     
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 .1rem rgba(244, 243, 240, 0.3);
+    }
+     
+   ::-webkit-scrollbar-thumb {
+      background-color: rgb(243, 245, 247);
+      outline: .1rem solid rgb(30, 30, 1);
+    }
